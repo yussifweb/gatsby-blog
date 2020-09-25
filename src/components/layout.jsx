@@ -6,12 +6,12 @@ import styles from './layout.module.scss'
 function Layout({ children }) {
     return (
         <div className={styles.container}>
-            <Header></Header>
+            <Header />
             <div className={styles.content}>
               {children}
             </div>
             <Footer>
-                My New Gtsby blog
+                My New Gatsby blog
             </Footer>
         </div>
     )

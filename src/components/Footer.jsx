@@ -5,9 +5,8 @@ function Footer({ children }) {
     return (
         <footer className={styles.container}>
         <div className={styles.footer}>
-            {children}
+             {children}
         </div>
-
         </footer>
     )
 }
